@@ -2,7 +2,7 @@ const express = require('express')
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
-//local imports
+//local importss
 const connectDB = require('./db.js');
 const employeeRoutes = require('./controllers/employee.controller');
 const {errorHandler} = require('./middlewares');
